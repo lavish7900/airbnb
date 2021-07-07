@@ -1,0 +1,35 @@
+.datepicker{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 125px;
+    left: 25%;
+
+}
+.datepicker > h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding-left: 15px;
+    padding-right: 15px;    
+    padding-bottom: 20px;
+
+}
+.datepicker > Button{
+    color: white;
+    background-color: #ff7779;
+    font-weight: 800;
+    margin: 10px  0;
+}
+.datepicker > Button:hover{
+    color: #ff7779;
+    background-color: white;
+}
+input{
+    border: none;
+   
+}
+input:focus{
+    outline: none;
+}

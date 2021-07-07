@@ -1,0 +1,67 @@
+.result{
+    display: flex;
+    margin: 20px 20px;
+    padding: 15px 15px;
+    position: relative;
+    border-bottom: 1px solid lightgray;
+}
+.result:hover{
+   background-color: lightgray;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.result__heart{
+   position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.result > img{
+    width: 350px;
+    height: 200px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 100ms ease-in;
+
+}
+.result > img:hover{
+    transform: scale(1.2);
+    
+    
+    padding: auto;
+    z-index: 10;
+}
+
+.result__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.result__infoTop{
+padding-left: 10px;
+
+}
+.result__infoTop > p{
+    font-size: 12px;
+color: gray;
+}
+
+.result__infoTop > h3{
+    font-weight: 400;
+}
+.result__infoBottom{
+    display: flex;
+}
+.result__stars{
+    display: flex;
+}
+.result__star{
+    color: red;
+}
+
+.results__price{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    text-align: right;
+}

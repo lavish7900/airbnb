@@ -1,0 +1,6 @@
+.home__info{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin:15px 25px 15px ;
+}

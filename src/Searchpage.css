@@ -1,0 +1,16 @@
+.searchpage{
+margin-top: 5vh;
+margin-bottom: 5vh;
+}
+.searchpage__info{
+padding: 10px 25px 10px;
+}
+.searchpage__info > p{
+    font-size: 14px;
+}
+.searchpage__info > Button{
+margin: 10px 10px  10px;
+margin-left:0px;
+border-radius: 99px;
+
+}
